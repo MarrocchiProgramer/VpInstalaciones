@@ -1,0 +1,17 @@
+usar colores tales como #34699F(color principal) , #10899E, #1A92B5, #46A0C0
+
+
+PAGINAS EN LAS QUE ME BASO :
+https://www.servicedeaire.com/central/?gclid=Cj0KCQjw756lBhDMARIsAEI0AgkluNYUtZgRi8mBJ0tVi5Bj1S9u9PkFHSwO6HgJf47J1ITgCOE6_PgaAhLREALw_wcB
+https://climatizacionadams.com.ar/?origen=1&medio=G-Search&gclid=Cj0KCQjw756lBhDMARIsAEI0AglHctVAfyvKh81mcua71th31sbHaLRmo52gbr-nsIvKjtIOv1G07swaAoNnEALw_wcB
+
+
+Lo mas importante es el CONTACTO , hablar sobre la empresa como alguien en quien confiar con experiencia
+hablar sobre el procedimiento,
+
+primera seccion: texto a la derecha en azul con una imagen a la derecha
+
+segunda seccion: hago tres globitos en row que van a hablar sobre instalacion, service, mantenimiento
+
+
+hacer que cuando es arriba de 100% de zoom se achiquen los textos
