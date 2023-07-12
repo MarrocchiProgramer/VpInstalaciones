@@ -258,6 +258,7 @@ body {
 .seccion2 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -376,8 +377,10 @@ body {
     display: flex;
     align-items: center;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     bottom: 0;
-    height: 18rem;
+    height: auto;
     width: 100vw;
     background-color: rgba(82, 113, 255, 0.9);
     border-top: 1px solid #888;
@@ -474,7 +477,74 @@ body {
 
 
 
+@media (max-width: 768px) {
+    #seccion {
+        transform: scale(0.95);
+    }
 
+    #seccion:nth-child(1){
+        margin-top: 10rem;
+    }
+
+    #seccion:nth-child(2) {
+        margin-top: -12rem;
+    }
+
+    .logo-header {
+        transform: scale(0.8);
+        margin-left: -20px;
+    }
+
+
+    .div-seccion1-texto {
+        transform: scale(0.6);
+    }
+
+    .div-seccion1-aclaracion {
+        transform: scale(0.8);
+        font-weight: 600;
+    }
+
+    .div-seccion1-imagen {
+        display: none;
+    }
+
+    /* .div-seccion2{
+        margin-top: 1rem;
+    } */
+    .div-seccion2-texto, .div-seccion2-titulo, .tools{
+        transform: scale(0.95);
+    }
+
+    #seccion:nth-child(3){
+        margin-top: 6rem;
+        margin-bottom: 0rem;
+    }
+    
+    .div-seccion3{
+        width: 30rem;
+        height: 30rem;
+        transform: scale(0.8);
+    }
+
+    #footer{
+        padding: 1rem;
+    }
+    .footer-text-container{
+        transform: scale(0.9);
+    }
+
+    .footer-text h3 ,.footer-text h4{
+        font-size: 10rem;
+    }
+}
+
+
+ /* @media (max-width: 480px) {
+    .container {
+        
+    }
+}  */
 
 .focus-in-expand {
     -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -510,34 +580,3 @@ body {
         opacity: 1;
     }
 }
-
-@media (max-width: 768px) {
-    #seccion {
-        margin-top: 10rem;
-    }
-
-    .logo-header {
-        transform: scale(0.8);
-        margin-left: -20px;
-    }
-
-    .div-seccion1-texto {
-        transform: scale(0.6);
-    }
-
-    .div-seccion1-aclaracion {
-        transform: scale(0.8);
-        font-weight: bolder;
-    }
-
-    .div-seccion1-imagen {
-        display: none;
-    }
-}
-
-/* Estilos para celular */
-/* @media (max-width: 480px) {
-    .container {
-        /* Estilos para celular */
-    }
-} */
