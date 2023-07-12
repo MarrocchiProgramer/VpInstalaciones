@@ -264,6 +264,7 @@ body {
     align-items: center;
     /* border: 1px solid black; */
     backdrop-filter: blur(3px);
+    height: auto;
     background-image: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7), transparent);
 
 }
@@ -479,6 +480,7 @@ body {
 
 @media (max-width: 768px) {
     .contacto-celular{
+        z-index: 5;
         display: inherit;
         position: fixed;
         left: 0;
@@ -507,7 +509,7 @@ body {
     }
 
     #seccion:nth-child(2) {
-        margin-top: -12rem;
+        margin-top: -25rem;
     }
 
     .logo-header {
@@ -517,16 +519,22 @@ body {
 
 
     .div-seccion1-texto {
-        transform: scale(0.6);
+        font-size: 1.3rem;
     }
 
-    /*     
+    
     .div-seccion1-texto span{
-        transform: scale(0.4);
-    } */
+        font-size: 2.5rem;
+    } 
 
+    /* .div-seccion1-boton{
+        padding: 5px 10px;
+        margin-top: -.8rem;
+        font-size: 1.1rem;
+    } */
     .div-seccion1-aclaracion {
-        transform: scale(0.8);
+        margin-top: .6rem;
+        font-size: .7rem;
         font-weight: 600;
     }
 
@@ -534,9 +542,13 @@ body {
         display: none;
     }
 
-    /* .div-seccion2{
-        margin-top: 1rem;
-    } */
+    .div-seccion2{
+        margin-top: 2rem;
+    }
+
+    .div-seccion2-texto{
+        font-size: 1rem;
+    }
     .div-seccion2-texto,
     .div-seccion2-titulo,
     .tools {
