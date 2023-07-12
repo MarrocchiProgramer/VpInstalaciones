@@ -125,7 +125,7 @@ body {
     width: 37rem;
     height: 33rem;
     /* border: 1px solid green; */
-    margin: -150px 40px 20px 30px;
+    margin: -150px 0px 20px 30px;
 
 }
 
@@ -380,7 +380,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     bottom: 0;
-    height: auto;
+    height: 18rem;
     width: 100vw;
     background-color: rgba(82, 113, 255, 0.9);
     border-top: 1px solid #888;
@@ -499,6 +499,10 @@ body {
     .div-seccion1-texto {
         transform: scale(0.6);
     }
+/*     
+    .div-seccion1-texto span{
+        transform: scale(0.4);
+    } */
 
     .div-seccion1-aclaracion {
         transform: scale(0.8);
@@ -529,6 +533,7 @@ body {
 
     #footer{
         padding: 1rem;
+        height: auto;
     }
     .footer-text-container{
         transform: scale(0.9);
@@ -540,11 +545,30 @@ body {
 }
 
 
- /* @media (max-width: 480px) {
-    .container {
-        
+ @media (max-width: 1000px) {
+    /* #seccion{
+        margin:;
+    } */
+
+    .div-seccion1:first-child{
+        margin: -150px 30px 20px 0px;
     }
-}  */
+    
+    .div-seccion1-texto {
+        transform: scale(0.8);
+    }
+
+    .div-seccion1-aclaracion {
+        transform: scale(0.9);
+        font-weight: 600;
+    }
+    .div-seccion1-imagen{
+        transform: scale(0.5);
+    }
+    .div-seccion2-texto{
+        width: 12rem;
+    }
+} 
 
 .focus-in-expand {
     -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
