@@ -478,11 +478,31 @@ body {
 
 
 @media (max-width: 768px) {
+    .contacto-celular{
+        display: inherit;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .contacto-celular-texto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: #2c50ef;
+        gap: 5px;
+        font-size: 15px;
+    }
+    .contacto-celular-texto p{
+        font-size: 12px;
+    }
     #seccion {
         transform: scale(0.95);
     }
 
-    #seccion:nth-child(1){
+    #seccion:nth-child(1) {
         margin-top: 10rem;
     }
 
@@ -499,7 +519,8 @@ body {
     .div-seccion1-texto {
         transform: scale(0.6);
     }
-/*     
+
+    /*     
     .div-seccion1-texto span{
         transform: scale(0.4);
     } */
@@ -516,44 +537,49 @@ body {
     /* .div-seccion2{
         margin-top: 1rem;
     } */
-    .div-seccion2-texto, .div-seccion2-titulo, .tools{
+    .div-seccion2-texto,
+    .div-seccion2-titulo,
+    .tools {
         transform: scale(0.95);
     }
 
-    #seccion:nth-child(3){
+    #seccion:nth-child(3) {
         margin-top: 6rem;
         margin-bottom: 0rem;
     }
-    
-    .div-seccion3{
+
+    .div-seccion3 {
         width: 30rem;
         height: 30rem;
         transform: scale(0.8);
     }
 
-    #footer{
+    #footer {
+        margin-bottom: 3rem;
         padding: 1rem;
         height: auto;
     }
-    .footer-text-container{
+
+    .footer-text-container {
         transform: scale(0.9);
     }
 
-    .footer-text h3 ,.footer-text h4{
+    .footer-text h3,
+    .footer-text h4 {
         font-size: 10rem;
     }
 }
 
 
- @media (max-width: 1000px) {
+@media (max-width: 1000px) {
     /* #seccion{
         margin:;
     } */
 
-    .div-seccion1:first-child{
+    .div-seccion1:first-child {
         margin: -150px 30px 20px 0px;
     }
-    
+
     .div-seccion1-texto {
         transform: scale(0.8);
     }
@@ -562,13 +588,15 @@ body {
         transform: scale(0.9);
         font-weight: 600;
     }
-    .div-seccion1-imagen{
+
+    .div-seccion1-imagen {
         transform: scale(0.5);
     }
-    .div-seccion2-texto{
+
+    .div-seccion2-texto {
         width: 12rem;
     }
-} 
+}
 
 .focus-in-expand {
     -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
