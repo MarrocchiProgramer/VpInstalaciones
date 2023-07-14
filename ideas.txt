@@ -9,33 +9,8 @@ https://climatizacionadams.com.ar/?origen=1&medio=G-Search&gclid=Cj0KCQjw756lBhD
 Lo mas importante es el CONTACTO , hablar sobre la empresa como alguien en quien confiar con experiencia
 hablar sobre el procedimiento,
 
-primera seccion: texto a la derecha en azul con una imagen a la derecha
+COSAS PARA HACER: 
 
-segunda seccion: hago tres globitos en row que van a hablar sobre instalacion, service, mantenimiento
-
-
-hacer que cuando es arriba de 100% de zoom se achiquen los textos
-
-
-    <div class="contacto-celular">
-        <div class="row">
-            <div class="col-sm-6">
-                <button>
-                    
-                </button>
-            </div>
-            <div class="col-sm-6">
-
-            </div>
-        </div>
-    </div>
-
-    <button class="contacto-celular-boton">
-                            <i class='bx bx-phone'></i>
-                            <p>LLAMAR</p>
-                        </button>
-
-                         <button class="contacto-celular-boton">
-                            <i class='bx bxl-whatsapp'></i>
-                            <p>WHATSAPP</p>
-                        </button>
+-meter las imagenes en el  carousel
+-arreglar boton llamar
+-hacer que no halla delay en los globitos en el celular

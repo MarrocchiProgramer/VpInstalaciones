@@ -48,6 +48,9 @@ body {
     background: #f9f9f9;
 }
 
+.contacto-celular {
+    display: none;
+}
 
 
 #header {
@@ -489,7 +492,12 @@ body {
 
 
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 575px) {
+
+    body {
+        background-position: center -300px;
+    }
+
     .contacto-celular {
         z-index: 5;
         display: flex;
@@ -512,7 +520,7 @@ body {
         width: 50%;
         display: flex;
         justify-content: center;
-
+        align-items: center;
     }
 
 
@@ -522,10 +530,12 @@ body {
         justify-content: center;
         align-items: center;
         width: 100%;
+        background-color: rgb(82, 113, 255);
     }
 
-    .contacto-celular-boton p {
-        font-size: 14px;
+    .contacto-celular-boton p , .contacto-celular-boton i {
+        color: white;
+        font-size: 15px;
     }
 
     #seccion {
@@ -546,14 +556,18 @@ body {
         margin-left: -20px;
     }
 
+    .div-seccion1:nth-child(1){
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
 
     .div-seccion1-texto {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
 
     .div-seccion1-texto span {
-        font-size: 2.8rem;
+        font-size: 2.2rem;
     }
 
     .div-seccion1-boton {
@@ -576,6 +590,12 @@ body {
         display: none;
     }
 
+    /* ESTO SIRVE PARA QUE NO HAGA EFECTO EL AOS */
+    .elemento {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
 
     .div-seccion2 {
         margin-top: 0rem;
@@ -619,22 +639,56 @@ body {
     }
 }
 
+@media (max-width: 768px) and (orientation: landscape){
+    #seccion:first-child{
+        margin-top: 10rem;
+    }
+    #seccion:nth-child(2){
+        margin-top: -25rem;
+    }
+    #seccion:nth-child(3){
+        margin-top: 25rem;
+    }
+    .div-seccion1-imagen{
+        display: none;
+    }
+    .div-seccion2{
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    .elemento {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
+}
 
-@media (max-width: 1000px) {
-    /* #seccion{
-        margin:;
-    } */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .div-seccion1-imagen {
+        display: none;
+    }
 
     .contacto-celular {
         height: 4rem;
     }
 
-    .div-seccion1:first-child {
-        margin: -150px 30px 20px 0px;
+    #seccion:nth-child(1) {
+        margin-top: 10rem;
+    }
+
+    #seccion:nth-child(2) {
+        margin-top: -25rem;
+    }
+
+    .elemento {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
     }
 
     .div-seccion1-texto {
-        transform: scale(0.8);
+        transform: scale(1.2);
     }
 
     .div-seccion1-aclaracion {

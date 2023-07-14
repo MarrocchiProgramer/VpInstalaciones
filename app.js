@@ -6,12 +6,6 @@ function redirigirWhatsApp() {
     window.open(enlaceWhatsApp, "_blank");
 }
 
-if (window.innerWidth <= 767) {
-    var elemento = document.querySelector('.elemento');
-    elemento.setAttribute('data-aos-delay', '0');
-    elemento.setAttribute('data-aos', '0');
-}
-
 var contactoCelular = document.querySelector('.contacto-celular');
 var lastScrollTop = 0;
 
