@@ -15,3 +15,27 @@ segunda seccion: hago tres globitos en row que van a hablar sobre instalacion, s
 
 
 hacer que cuando es arriba de 100% de zoom se achiquen los textos
+
+
+    <div class="contacto-celular">
+        <div class="row">
+            <div class="col-sm-6">
+                <button>
+                    
+                </button>
+            </div>
+            <div class="col-sm-6">
+
+            </div>
+        </div>
+    </div>
+
+    <button class="contacto-celular-boton">
+                            <i class='bx bx-phone'></i>
+                            <p>LLAMAR</p>
+                        </button>
+
+                         <button class="contacto-celular-boton">
+                            <i class='bx bxl-whatsapp'></i>
+                            <p>WHATSAPP</p>
+                        </button>
