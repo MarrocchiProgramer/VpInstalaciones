@@ -13,4 +13,4 @@ COSAS PARA HACER:
 
 -meter las imagenes en el  carousel
 -arreglar boton llamar
--hacer que no halla delay en los globitos en el celular
+-hacer que los botones del header redireccionen a donde tiene que ir

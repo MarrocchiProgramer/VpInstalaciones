@@ -20,3 +20,7 @@ window.addEventListener('scroll', function () {
 
     lastScrollTop = scrollTop;
 });
+
+document.addEventListener('touchmove', function (event) {
+    event.preventDefault();
+}, { passive: false });

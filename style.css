@@ -7,12 +7,11 @@
 
 html,
 body {
-    width: 100%;
-}
-
-html {
+    width: 100vw;
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
+
 
 body {
     height: auto;
@@ -22,7 +21,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: -150px -120px;
-
 }
 
 :root {
@@ -52,9 +50,7 @@ body {
     display: none;
 }
 
-.carousel{
-    z-index: 999 !important;
-}
+
 
 #header {
     width: 100%;
@@ -498,7 +494,7 @@ body {
         background-position: center -300px;
     }
 
-
+    /* EMPIEZA CONTACTO CELULAR */
     .contacto-celular {
         display: flex;
         flex-direction: row;
@@ -530,22 +526,30 @@ body {
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 3rem;
-        background-color: rgb(82, 113, 255);
+        height: 3.2rem;
+        gap: .6rem;
+        background-color: rgb(186, 113, 255);
     }
+
 
     .contacto-celular-boton p,
     .contacto-celular-boton i {
+        font-family: 'Ysabeau Infant', sans-serif;
+        font-weight: 600;
+        padding-top: .5rem;
+        align-self: baseline;
         color: white;
         font-size: 15px;
     }
+
+    /* TERMINA CONTACTO CELULAR */
 
     #seccion {
         transform: scale(0.95);
     }
 
     #seccion:nth-child(1) {
-        margin-top: 10rem;
+        margin-top: 8.7rem;
     }
 
     #seccion:nth-child(2) {
@@ -664,6 +668,9 @@ body {
         margin-left: 5rem;
         margin-right: 5rem;
     }
+    .div-seccion2-titulo:first-child{
+        transform: scale(0.5);
+    }
 
     .elemento {
         opacity: 1 !important;
@@ -672,8 +679,7 @@ body {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-
+@media (min-width: 768px) and (max-width: 992px) {
     .div-seccion1-imagen {
         display: none;
     }
@@ -688,6 +694,7 @@ body {
 
     #seccion:nth-child(2) {
         margin-top: -25rem;
+        margin-bottom: 13rem;
     }
 
     .elemento {
