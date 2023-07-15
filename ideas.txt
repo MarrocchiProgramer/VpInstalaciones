@@ -11,6 +11,9 @@ hablar sobre el procedimiento,
 
 COSAS PARA HACER: 
 
+-ADAPTAR LA PAGINA A MONITORES GRANDES
 -meter las imagenes en el  carousel
 -arreglar boton llamar
 -hacer que los botones del header redireccionen a donde tiene que ir
+-mejorar el favicon
+
