@@ -88,7 +88,7 @@ body {
     padding: 1rem;
     margin: .3rem;
     font-weight: bold;
-    background-color: rgba(187, 196, 236, 0.7);
+    background-color: rgba(157, 172, 238, 0.7);
 }
 
 .logo-header {
@@ -176,20 +176,20 @@ body {
 }
 
 .div-seccion1-texto {
-    font-size: 1.9rem;
+    font-size: 2.5rem;
     text-align: center;
     margin: 10px;
-    color: #444;
+    color: #6c6c6c;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: 500;
+
 }
 
 .div-seccion1-texto span {
-    margin: 10px;
-    font-size: 2.9rem;
-    color: #5271FF;
-    font-family: 'Ysabeau Infant', sans-serif;
-    font-weight: 500;
+    font-size: 3.1rem;
     border-bottom: 1px solid #5271FF;
-    /* text-shadow: 0 0 5px #5271FF, 0 0 10px #5271FF, 0 0 15px #5271FF; */
+    margin: 10px;
+    color: #5271FF;
 }
 
 
@@ -616,7 +616,9 @@ body {
     }
 
     .div-seccion1-texto {
-        font-size: 1.2rem;
+        color: rgb(48, 48, 48);
+        font-size: 1.6rem;
+        font-weight: bolder;
     }
 
 
@@ -709,6 +711,7 @@ body {
         margin-top: 25rem;
     }
 
+
     .div-seccion1-imagen {
         display: none;
     }
@@ -756,7 +759,13 @@ body {
     }
 
     .div-seccion1-texto {
-        transform: scale(1.2);
+        color: black;
+        font-weight: bolder;
+        font-size: 1.7rem;
+    }
+
+    .div-seccion1-texto span{
+        font-size: 1.9;
     }
 
     .div-seccion1-aclaracion {

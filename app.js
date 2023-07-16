@@ -6,18 +6,19 @@ function redirigirWhatsApp() {
     window.open(enlaceWhatsApp, "_blank");
 }
 
-// var contactoCelular = document.querySelector('.contacto-celular');
-// var lastScrollTop = 0;
 
-// window.addEventListener('scroll', function () {
-//     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+var contactoCelular = document.querySelector('.contacto-celular');
+var lastScrollTop = 0;
 
-//     if (scrollTop > lastScrollTop) {
-//         contactoCelular.classList.remove('fixed');
-//     } else {
-//         contactoCelular.classList.add('fixed');
-//     }
+window.addEventListener('scroll', function () {
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-//     lastScrollTop = scrollTop;
-// });
+    if (scrollTop > lastScrollTop) {
+        contactoCelular.classList.remove('fixed');
+    } else {
+        contactoCelular.classList.add('fixed');
+    }
+
+    lastScrollTop = scrollTop;
+});
 
