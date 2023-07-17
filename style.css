@@ -24,7 +24,7 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
-    background-image: url(imagenes/main2.jpg);
+    background-image: url(imagenes/main2.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: -150px -120px;
@@ -156,7 +156,7 @@ body {
 
 /* S E C C I O N   1 */
 
-.seccion1 {
+#seccion1 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -304,9 +304,6 @@ body {
 
 #seccion2 {
     margin-top: -10rem;
-}
-
-.seccion2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -316,8 +313,8 @@ body {
     height: auto;
     width: 100%;
     background-image: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7, transparent));
-
 }
+
 
 .div-seccion2 {
     display: flex;
@@ -379,19 +376,17 @@ body {
 
 /* S E C C I O N   3 */
 #seccion3 {
-    margin-top: -3rem;
+    margin-top: 0rem;
     margin-bottom: 10rem;
-}
-
-.seccion3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
     width: 100%;
     align-items: center;
-    /* border: 1px solid black; */
 }
+
+
 
 .div-seccion3 {
     display: flex;
@@ -491,7 +486,7 @@ body {
 
 
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 576px) {
     body {
         overflow-x: hidden;
         background-position: center -300px;
@@ -560,7 +555,7 @@ body {
 
 
     #seccion1,
-    #seccion2{
+    #seccion2 {
         transform: scale(0.95);
     }
 
@@ -570,10 +565,9 @@ body {
 
     #seccion2 {
         margin-top: -25rem;
-        margin-bottom: 30rem;
+        margin-bottom: 1rem;
     }
 
-    
 
     .logo-header {
         transform: scale(0.8);
@@ -586,9 +580,12 @@ body {
     }
 
     .div-seccion1-texto {
-        color: rgb(48, 48, 48);
         font-size: 1.6rem;
-        font-weight: bolder;
+        text-align: center;
+        margin: 10px;
+        color: #4e4c4c;
+        font-family: 'Ysabeau Infant', sans-serif;
+        font-weight: 500;
     }
 
 
@@ -641,7 +638,6 @@ body {
 
 
 
-
     #footer {
         margin-bottom: 3rem;
         padding: 1rem;
@@ -658,11 +654,21 @@ body {
     }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px){
-    .div-seccion1-imagen{
+/* TABLET PEQUEÑA */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .div-seccion1-imagen {
         display: none;
     }
+
+    #seccion1 {
+        margin-top: 8rem;
+    }
+    #seccion2 {
+        margin-top: -20rem;
+        margin-bottom: 4rem;
+    }
 }
+
 
 @media (max-width: 768px) and (orientation: landscape) {
     #seccion1 {
@@ -716,7 +722,7 @@ body {
 
     #seccion2 {
         margin-top: -25rem;
-        margin-bottom: 4rem;
+        margin-bottom: -4rem;
     }
 
     .elemento {
@@ -726,9 +732,12 @@ body {
     }
 
     .div-seccion1-texto {
-        color: black;
-        font-weight: bolder;
         font-size: 1.7rem;
+        text-align: center;
+        margin: 10px;
+        color: #4e4c4c;
+        font-family: 'Ysabeau Infant', sans-serif;
+        font-weight: 500;
     }
 
     .div-seccion1-texto span {
