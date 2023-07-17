@@ -17,7 +17,7 @@ COSAS PARA HACER:
 -hacer que los botones del header redireccionen a donde tiene que ir
 -mejorar el favicon
 
-
+USAR SEMRUSH PARA VER LAS PALABRAS CLAVES DE LA COMPETENCIA QUE MAS ATRAE GENTE
 VER DE QUE SE TRATA GOOGLE ADS
 USAR BETTER WAY TO WEB, UBERSUGGEST
 USAR LAS METADESCRIPTION PARA MEJORAR EL SEO
@@ -30,4 +30,12 @@ METER LA PAGINA EN GOOGLE ANALYTICS PARA VER EL COMPORTAMIENTO DE USUARIO DENTRO
 cosas que mas se buscan: 
 1.instalacion de aire acondicionado
 2.kit instalacion aire acondicionado
+
+
+imagenes/imagenesaire/imagen1.jpeg
+imagenes/imagenesaire/imagen2.jpeg
+imagenes/imagenesaire/acondicionado1.png
+imagenes/imagenesaire/imagen8.jpeg
+imagenes/imagenesaire/imagen21.jpeg
+imagenes/imagenesaire/imagen22.jpeg
 
