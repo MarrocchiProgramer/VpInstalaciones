@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Ysabeau+Infant:wght@100&display=swap');
+
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/vpinstalaciones/PTSans-Regular.woff2') format('woff2'),
+        /* Otras fuentes en distintos formatos si lo deseas */
+}
+
+@font-face {
+    font-family: 'Ysabeau Infant';
+    font-style: normal;
+    font-weight: 100;
+    src: url('/vpinstalaciones/YsabeauInfant-Light.woff2') format('woff2'),
+        /* Otras fuentes en distintos formatos si lo deseas */
+}
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -663,6 +683,7 @@ body {
     #seccion1 {
         margin-top: 8rem;
     }
+
     #seccion2 {
         margin-top: -20rem;
         margin-bottom: 4rem;
